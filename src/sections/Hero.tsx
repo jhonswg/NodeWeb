@@ -134,7 +134,7 @@ export const HeroSection = () => {
           </p>
         </div> */}
 
-        <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
+        <div className="flex flex-col md:flex-row justify-center items-center mt-10 gap-4">
           <Rounded
             backgroundColor="#22c55e"
             onClick={() => {
@@ -144,11 +144,12 @@ export const HeroSection = () => {
               )
             }}
           >
+          <span>
+          <ArrowDown className="size-4" />
+        </span>
             {/* <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl"> */}
             <span className="font-semibold">Our Services </span>
-            <span>
-              <ArrowDown className="size-4" />
-            </span>
+
             {/* </button> */}
           </Rounded>
           <Rounded
