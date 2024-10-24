@@ -4,13 +4,13 @@ import memojiAvatar1 from "@/assets/images/memoji-avatar-1.png";
 import memojiAvatar2 from "@/assets/images/memoji-avatar-2.png";
 import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
 import memojiAvatar5 from "@/assets/images/memoji-avatar-5.png";
-import avail from "@/assets/images/project/avail.png";
+// import avail from "@/assets/images/project/avail.png";
 import crossfi from "@/assets/images/project/crossfi.png";
 import empe from "@/assets/images/project/empe.png";
 import initia from "@/assets/images/project/initia.png";
 import selfchain from "@/assets/images/project/selfchain.png";
 import symphony from "@/assets/images/project/symphony.png";
-import tangle from "@/assets/images/project/tangle.png";
+// import tangle from "@/assets/images/project/tangle.png";
 import warden from "@/assets/images/project/warden.png";
 import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/Sectionheader";
@@ -30,12 +30,12 @@ const testimonials: Testimonial[] = [
     text: "I've had the pleasure of working alongside Galih for years and he has consistently demonstrated his unwavering dedication and hard work.",
     avatar: crossfi,
   },
-  {
-    name: "Avail",
-    position: "Games Partnership Manager at Nuon",
-    text: "I've had the pleasure of working alongside Galih for years and he has consistently demonstrated his unwavering dedication and hard work.",
-    avatar: avail,
-  },
+  // {
+  //   name: "Avail",
+  //   position: "Games Partnership Manager at Nuon",
+  //   text: "I've had the pleasure of working alongside Galih for years and he has consistently demonstrated his unwavering dedication and hard work.",
+  //   avatar: avail,
+  // },
   {
     name: "Empeiria",
     position: "Mobile Developer",
@@ -60,12 +60,12 @@ const testimonials: Testimonial[] = [
     text: "Good working adaptation",
     avatar: symphony,
   },
-  {
-    name: "Tangle",
-    position: "Software Engineer | UI Developer",
-    text: "Good working adaptation",
-    avatar: tangle,
-  },
+  // {
+  //   name: "Tangle",
+  //   position: "Software Engineer | UI Developer",
+  //   text: "Good working adaptation",
+  //   avatar: tangle,
+  // },
   {
     name: "Warden",
     position: "Software Engineer | UI Developer",
@@ -80,10 +80,10 @@ type TestimonialNames =
   | "Self Chain"
   | "Warden"
   | "Cross Finance"
-  | "Avail"
+  // | "Avail"
   | "Empeiria"
   | "Symphony"
-  | "Tangle";
+  // | "Tangle";
 
 const testimonialLinks: Record<TestimonialNames, { services: string; stake: string }> = {
   Initia: {
@@ -102,10 +102,10 @@ const testimonialLinks: Record<TestimonialNames, { services: string; stake: stri
     services: "https://services.jhonswg.com/Mainnet/CrossFi",
     stake: "https://explorer.jhonswg.com/crossfi",
   },
-  Avail: {
-    services: "#",
-    stake: "#",
-  },
+  // Avail: {
+  //   services: "#",
+  //   stake: "#",
+  // },
   Empeiria: {
     services: "https://services.jhonswg.com/Testnet/Empeiria",
     stake: "https://explorer.jhonswg.com/empeiria",
@@ -114,10 +114,10 @@ const testimonialLinks: Record<TestimonialNames, { services: string; stake: stri
     services: "https://services.jhonswg.com/Testnet/Symphony",
     stake: "https://explorer.jhonswg.com/symphony",
   },
-  Tangle: {
-    services: "#",
-    stake: "#",
-  },
+  // Tangle: {
+  //   services: "#",
+  //   stake: "#",
+  // },
 };
 
 export const TestimonialsSection = () => {
@@ -125,7 +125,7 @@ export const TestimonialsSection = () => {
 
   const handleMainnetClick = () => {
     const mainnetTestimonials = testimonials.filter((testimonial) =>
-      ["Tangle", "Self Chain", "Avail", "Cross Finance"].includes(testimonial.name)
+      ["Self Chain", "Cross Finance"].includes(testimonial.name)
     );
     setFilteredTestimonials(mainnetTestimonials);
   };
