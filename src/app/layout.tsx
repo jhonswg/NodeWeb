@@ -28,7 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Tambahkan favicon di sini */}
-        <link rel="icon" href="assets/images/profile/fix.png" type="image/png" />
+        <link rel="icon" href="assets/images/profile/logo.png" type="image/png" />
         {/* Jika menggunakan format lain seperti PNG */}
         {/* <link rel="icon" href="/favicon.png" type="image/png" /> */}
       </head>
