@@ -1,7 +1,7 @@
 "use client"
 import { motion } from "framer-motion"
 import Image from "next/image"
-import ProfilePhoto from "@/assets/images/profile/fix.png"
+import ProfilePhoto from "@/assets/images/profile/logo.png"
 
 export const Photo = () => {
   return (
