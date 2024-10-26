@@ -80,7 +80,7 @@ export const ValuesSection = () => {
             <SectionHeader
               eyebrow="Values"
               title="What We Offer"
-              description="See how I transformed concepts into engaging experience."
+              // description="See how I transformed concepts into engaging experience."
             />
           </motion.div>
 

@@ -1,11 +1,11 @@
 export const SectionHeader = ({
   eyebrow,
   title,
-  description,
+  // description,
 }: {
   eyebrow: string
   title: string
-  description: string
+  // description: string
 }) => {
   return (
     <div>
@@ -17,9 +17,9 @@ export const SectionHeader = ({
       <h2 className="font-serif text-3xl md:text-5xl text-center mt-6">
         {title}
       </h2>
-      <p className="text-center md:text-lg lg:text-xl text-white/60 mt-4 max-w-md mx-auto">
+      {/* <p className="text-center md:text-lg lg:text-xl text-white/60 mt-4 max-w-md mx-auto">
         {description}
-      </p>
+      </p> */}
     </div>
   )
 }

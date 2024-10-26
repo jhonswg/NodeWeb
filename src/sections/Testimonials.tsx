@@ -147,7 +147,7 @@ export const TestimonialsSection = () => {
         <SectionHeader
           eyebrow="Portofolio"
           title="Project"
-          description="Recap project Testnet and Mainnet."
+          // description="Recap project Testnet and Mainnet."
         />
 
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4 font-mono ">
