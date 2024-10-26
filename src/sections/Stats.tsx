@@ -2,7 +2,7 @@ import { Check } from "lucide-react"
 
 export const Stats = () => {
   const stats = [
-    { text: "24/7 Node monitoring" },
+    { text: "Node monitoring" },
     { text: "IBC Relayer" },
     { text: "Explorer Chain" },
     { text: "Rpc/Api Endpoint" },
