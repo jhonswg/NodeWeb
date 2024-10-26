@@ -1,7 +1,7 @@
 export const SectionHeader = ({
   eyebrow,
   title,
-  // description,
+  // description
 }: {
   eyebrow: string
   title: string
