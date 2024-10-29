@@ -15,7 +15,7 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Jhonswg - Stake and Earn with Us",
+  title: "Jhonswg - Trusted Node Validator",
   description: "PoS Node Validator",
 }
 

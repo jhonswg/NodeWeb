@@ -58,7 +58,7 @@ export const TapeSection = () => {
                       href={item.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-900 uppercase font-extrabold text-sm transition-all duration-300 hover:text-gray-700 hover:scale-110 transform"
+                      className="text-gray-900 uppercase font-extrabold text-sm transition-all duration-300 hover:text-gray-600 hover:scale-110 transform"
                     >
                       {item.text}
                     </a>
