@@ -41,7 +41,7 @@ export const HomePage = ({
               <p
                 className={twMerge(
                   !usePhoto && "m-auto",
-                  "max-w-[500px] mb-9 text-white/80"
+                  "max-w-[800px] mb-9 text-white-100 "
                 )}
               >
                 {description}
