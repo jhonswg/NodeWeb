@@ -9,7 +9,7 @@ import SparkleIcon from "@/assets/icons/sparkle.svg"
 import HeroOrbit from "@/components/HeroOrbit"
 import Rounded from "@/components/RoundedButton"
 import { HomePage } from "../components/HomePage"
-import { Stats } from "./Stats"
+// import { Stats } from "./Stats"
 
 export const HeroSection = () => {
   return (
@@ -110,7 +110,7 @@ export const HeroSection = () => {
             "We are committed, enthusiastic, and thrifty in operating nodes for blockchain projects, always up to date with industry developments, and eager to contribute to the advancement of blockchain technology through efficient node operations."
           }
         />
-        <Stats />
+        {/* <Stats /> */}
         {/* <div className="flex flex-col items-center">
           <Image
             src={memojiImage}
@@ -134,7 +134,7 @@ export const HeroSection = () => {
           </p>
         </div> */}
 
-        <div className="flex flex-col md:flex-row justify-center items-center mt-10 gap-4">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4">
           <Rounded
             backgroundColor="#22c55e"
             onClick={() => {
