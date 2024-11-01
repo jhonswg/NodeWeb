@@ -48,7 +48,7 @@ export default function Button({
   return (
     <Magnetic>
       <div
-        className="rounded-xl border border-white/15  cursor-pointer  gap-2  relative flex items-center justify-center  px-6 h-12  hover:text-white"
+        className="rounded-xl border border-white/15  cursor-pointer  gap-2  relative flex items-center justify-center  px-6 h-12 hover:text-white mt-1 "
         style={{ overflow: "hidden" }}
         onMouseEnter={manageMouseEnter}
         onMouseLeave={manageMouseLeave}
