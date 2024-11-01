@@ -23,7 +23,7 @@ export const HomePage = ({
         <div
           className={twMerge(
             usePhoto && "md:flex-row",
-            "flex flex-col items-center justify-between mt-20 "
+            "flex flex-col items-center justify-between mt-10 "
           )}
         >
           <AnimatedText>
@@ -41,7 +41,7 @@ export const HomePage = ({
               <p
                 className={twMerge(
                   !usePhoto && "m-auto",
-                  "dark:text-gray-300 mb-4 !px-1 !lg:px-5 "
+                  "max-w-[800px] mb-9 text-white-100 "
                 )}
               >
                 {description}
