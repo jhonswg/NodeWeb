@@ -84,7 +84,7 @@ export const ValuesSection = () => {
             />
           </motion.div>
 
-          <div className="mt-10 md:mt-20 grid grid-cols-1 md:grid-cols-2 gap-6 justify-center items-stretch">
+          <div className="mt-10 md:mt-20 grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-stretch">
             {portfolioValues.map((project, projectIndex) => (
               <FadeInWhenVisible key={project.title} delay={projectIndex * 0.2}>
                 <Card
@@ -92,8 +92,6 @@ export const ValuesSection = () => {
                   style={{ 
                     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
                     minHeight: '100px' ,// Tambahkan minimum height
-                    transform: 'scale(0.98)', // Sedikit memperkecil card
-
                   }}
                 >
                   <div className="flex flex-col flex-grow justify-between relative">
