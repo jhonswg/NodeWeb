@@ -88,10 +88,12 @@ export const ValuesSection = () => {
             {portfolioValues.map((project, projectIndex) => (
               <FadeInWhenVisible key={project.title} delay={projectIndex * 0.2}>
                 <Card
-                  className="h-full flex flex-col px-6 py-6 md:px-8 md:py-8 lg:px-10 lg:py-10 font-mono overflow-hidden rounded-3xl mx-3 sm:mx-0 "
+                  className="h-full flex flex-col px-6 py-6 md:px-8 md:py-8 lg:px-10 lg:py-10 font-mono rounded-3xl mx-3 sm:mx-0 "
                   style={{ 
                     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
                     minHeight: '100px' ,// Tambahkan minimum height
+                    transform: 'scale(0.98)', // Sedikit memperkecil card
+
                   }}
                 >
                   <div className="flex flex-col flex-grow justify-between relative">
