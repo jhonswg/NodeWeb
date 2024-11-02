@@ -67,7 +67,7 @@ export const ValuesSection = () => {
   return (
     <div>
       <section className="pb-16 lg:py-24">
-        <div className="container">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             ref={headerRef}
             initial={{ opacity: 0, y: 50 }}
@@ -84,11 +84,11 @@ export const ValuesSection = () => {
             />
           </motion.div>
 
-          <div className="mt-10 md:mt-20 grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-stretch">
+          <div className="mt-10 md:mt-20 grid grid-cols-1 md:grid-cols-2 gap-6 justify-center items-stretch">
             {portfolioValues.map((project, projectIndex) => (
               <FadeInWhenVisible key={project.title} delay={projectIndex * 0.2}>
                 <Card
-                  className="h-full flex flex-col px-6 pt-6 md:pt-12 md:px-10 lg:pt-10 lg:px-10 font-mono overflow-hidden "
+                  className="h-full flex flex-col px-6 py-6 md:px-8 md:py-8 lg:px-10 lg:py-10 font-mono overflow-hidden rounded-3xl mx-3 sm:mx-0 "
                   style={{ 
                     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
                     minHeight: '100px' ,// Tambahkan minimum height
