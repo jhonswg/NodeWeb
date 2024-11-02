@@ -5,9 +5,7 @@ import { motion } from "framer-motion"
 import { opacity, slideUp } from "./anim"
 
 const words = [
-  "Hello Noders! ",
-
-  //   "Ayo Sholat!!",
+  "Hello Noders 👋"
 ]
 
 export default function Index() {
@@ -32,10 +30,10 @@ export default function Index() {
     dimension.height
   } Q${dimension.width / 2} ${dimension.height + 300} 0 ${
     dimension.height
-  }  L0 0`
+  } L0 0`
   const targetPath = `M0 0 L${dimension.width} 0 L${dimension.width} ${
     dimension.height
-  } Q${dimension.width / 2} ${dimension.height} 0 ${dimension.height}  L0 0`
+  } Q${dimension.width / 2} ${dimension.height} 0 ${dimension.height} L0 0`
 
   const curve = {
     initial: {
@@ -58,7 +56,6 @@ export default function Index() {
       {dimension.width > 0 && (
         <>
           <motion.p variants={opacity} initial="initial" animate="enter">
-            <span></span>
             {words[index]}
           </motion.p>
           <svg>
